@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorting Algorithm Visualization</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- NAV -->
+    <div class="nav">    <h1>Sorting Algorithm Visualization</h1></div>  
+
+
+<!-- CONTAINER -->
+    <div class="whole">  
+        <!-- LEFT B1 -->
+        <div class="left">
+
+            <div class="container">
+            <!-- Bars that will be sort -->
+            <div id="bars-container"></div> 
+            <!-- Buttons -->
+            <button class="btn" id="sortBt" onclick="bubbleSort()">Bubble Sort</button>
+            <button class="btn" id="resetBt" onclick="resetArray()">Reset</button>
+        </div>
+        
+    </div>
+<!-- RIGHT B2 -->
+    <div class="right">
+
+        <p>Bubble sort is a simple and intuitive sorting algorithm that can be effectively taught through visual representation. By visualizing the step-by-step comparisons and swaps of elements, learners can easily understand the workings of this algorithm.
+<br>
+            Description of Bubble Sorting:
+            Bubble sort works by repeatedly swapping adjacent elements if they are in the wrong order until the entire list is sorted. The algorithm gets its name from the way smaller elements "bubble" to the top of the list during each pass. Visual representation can bring this process to life and help learners comprehend the algorithm's behavior.
+            <br>
+            Visual Representation:
+            
+            Bar Graphs: Represent the elements to be sorted using a bar graph, where the height of each bar corresponds to the value of the element. Initially, the bars are randomly arranged. During each pass of the algorithm, a pair of adjacent bars is compared, and if they are out of order, they are visually highlighted.
+            
+            Swapping Animation: When a comparison identifies two adjacent elements that are out of order, animate the swapping process by visually moving the bars to their correct positions. This animation demonstrates how elements gradually move towards their correct places through repeated swaps.
+            <br>
+            Process:
+            
+            Initialization: Display the initial unsorted list of elements as a bar graph.
+            
+            Pass Iterations: Perform a series of iterations or passes over the list. In each pass, compare adjacent pairs of elements from left to right and highlight any pairs that require swapping.
+            
+            Swapping: After each comparison, if a swap is necessary, visually animate the swapping process by moving the corresponding bars to their correct positions.
+            
+            Repeat: Repeat the pass iterations until the entire list is sorted. Each iteration should visually demonstrate the changes in the order and the shrinking unsorted portion of the list.
+            
+            Benefits of Visual Representation:
+            
+            Clear Understanding: Visual representation helps learners understand how bubble sort works by visually demonstrating the comparisons and swaps. They can observe how elements move and interact, reinforcing their understanding of the algorithm's logic.
+            
+            Step-by-Step Progress: Visualizing bubble sort allows learners to see the gradual progress of sorting. They can track how elements gradually "bubble" to their correct positions with each pass, reinforcing the algorithm's efficiency and effectiveness.
+            
+            Interactive Learning: The interactive nature of visual representation engages learners in a hands-on experience. They can actively observe, analyze, and participate in the sorting process, enhancing their comprehension and retention.
+            <br>
+            Conclusion:
+            Visual representation is a valuable tool for teaching bubble sort. By using bar graphs and swapping animations, learners can visually grasp the process of bubble sorting and understand how elements are compared, swapped, and gradually sorted. Incorporating visual representation into your teaching approach will enhance learners' understanding and appreciation of this simple yet fundamental sorting algorithm.</p>
+    </div>
+    
+    </div>
+
+  
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
